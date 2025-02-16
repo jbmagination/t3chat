@@ -1,7 +1,7 @@
 {
   "name": "T3 Chat",
   "short_name": "T3 Chat",
-  "start_url": "/t3chat/",
+  "start_url": "https://jbmagination.com/t3chat/",
   "icons": [
     {
       "src": "https://t3.chat/web-app-manifest-192x192.png",
@@ -16,8 +16,11 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "background_color": "#1a1a1a",
   "display": "standalone",
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "id": "t3-chat",
+  "description": "You've never felt a chatbot this fast.",
+  "orientation": "any"
 }
