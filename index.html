@@ -5,7 +5,7 @@
   </head>
   <body>
     <script>
-      if (navigator.standalone) {
+      if (window.matchMedia("(display-mode: standalone)").matches || navigator.standalone) {
         location.href = 'https://t3.chat'
       }
     </script>
