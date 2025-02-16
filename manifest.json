@@ -1,7 +1,7 @@
 {
   "name": "T3 Chat",
   "short_name": "T3 Chat",
-  "start_url": "https://t3.chat",
+  "start_url": "/t3chat/",
   "icons": [
     {
       "src": "https://t3.chat/web-app-manifest-192x192.png",
