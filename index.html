@@ -33,20 +33,6 @@
         alert("👍", "appinstalled", event);
         window.deferredPrompt = null;
       });
-      
-      if (window.location.protocol === "http:") {
-        const requireHTTPS = document.getElementById("requireHTTPS");
-        const link = requireHTTPS.querySelector("a");
-        link.href = window.location.href.replace("http://", "https://");
-        requireHTTPS.classList.remove("hidden");
-      }
-      
-      if (window.self !== window.top) {
-        const requireTopLevel = document.getElementById("requireTopLevel");
-        const link = requireTopLevel.querySelector("a");
-        link.href = window.location.href;
-        requireTopLevel.classList.remove("hidden");
-      }
 
        if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone == true) window.location.href = 'https://t3.chat';
     </script>
